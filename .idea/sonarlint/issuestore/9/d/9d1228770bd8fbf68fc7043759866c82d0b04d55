@@ -1,0 +1,62 @@
+
+7squid:S1659""Declare "q1_g" on a separate line.(ÃØ­Á
+7squid:S1659""Declare "q3_g" on a separate line.(ÃØ­Á
+7squid:S1659""Declare "q4_g" on a separate line.(ÃØ­Á
+7squid:S1659""Declare "q5_g" on a separate line.(ÃØ­Á
+7squid:S1659""Declare "q7_g" on a separate line.(ÃØ­Á
+7squid:S1659""Declare "q8_g" on a separate line.(ÃØ­Á
+7squid:S1659""Declare "q2a2" on a separate line.(™ÂŸ¬
+7squid:S1659""Declare "q2a3" on a separate line.(™ÂŸ¬
+7squid:S1659""Declare "q2a4" on a separate line.(™ÂŸ¬
+7squid:S1659""Declare "q6a1" on a separate line.(™ÂŸ¬
+7squid:S1659""Declare "q6a2" on a separate line.(™ÂŸ¬
+7squid:S1659""Declare "q6a3" on a separate line.(™ÂŸ¬
+7squid:S1659""Declare "q6a4" on a separate line.(™ÂŸ¬
+<squid:S1659""Declare "q3a4" on a separate line.(¬–¹›ıÿÿÿÿ
+<squid:S1659""Declare "q4a2" on a separate line.(¬–¹›ıÿÿÿÿ
+<squid:S1659""Declare "q5a3" on a separate line.(¬–¹›ıÿÿÿÿ
+<squid:S1659""Declare "q7a1" on a separate line.(¬–¹›ıÿÿÿÿ
+<squid:S1659""Declare "q8a3" on a separate line.(¬–¹›ıÿÿÿÿ
+Esquid:S1905"+Remove this unnecessary cast to "EditText".(Ôìªêúÿÿÿÿ
+@squid:S1905"+Remove this unnecessary cast to "CheckBox".(ˆÕó
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(ºé¨“ùÿÿÿÿ
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(á×Â—øÿÿÿÿ
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(‡Ê»şøÿÿÿÿ
+@squid:S1905"+Remove this unnecessary cast to "CheckBox".(¢é“Š
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(Í´õ«şÿÿÿÿ
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(¸åÄ†şÿÿÿÿ
+?squid:S1905"+Remove this unnecessary cast to "CheckBox".(Ïû˜
+Asquid:S1905"-Remove this unnecessary cast to "RadioGroup".(½¨¢l
+Gsquid:S1905"-Remove this unnecessary cast to "RadioGroup".(Ÿ¨°èÿÿÿÿÿ
+Gsquid:S1905"-Remove this unnecessary cast to "RadioGroup".(İşÍ£ıÿÿÿÿ
+Gsquid:S1905"-Remove this unnecessary cast to "RadioGroup".(­°åúÿÿÿÿ
+Gsquid:S1905"-Remove this unnecessary cast to "RadioGroup".(Ñ”ı°ùÿÿÿÿ
+Gsquid:S1905"-Remove this unnecessary cast to "RadioGroup".(¹ŒÖÎıÿÿÿÿ
+Esquid:S1905"+Remove this unnecessary cast to "EditText".(Ôìªêúÿÿÿÿ
+Hsquid:S1905".Remove this unnecessary cast to "RadioButton".(¢È¦¤øÿÿÿÿ
+@squid:S1905"+Remove this unnecessary cast to "CheckBox".(ˆÕó
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(ºé¨“ùÿÿÿÿ
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(‡Ê»şøÿÿÿÿ
+Hsquid:S1905".Remove this unnecessary cast to "RadioButton".(ˆ·Ó¥ÿÿÿÿÿ
+Hsquid:S1905".Remove this unnecessary cast to "RadioButton".(¯èğ¿şÿÿÿÿ
+Csquid:S1905".Remove this unnecessary cast to "RadioButton".( İ±œ
+@squid:S1905"+Remove this unnecessary cast to "CheckBox".(¢é“Š
+Esquid:S1905"+Remove this unnecessary cast to "CheckBox".(Í´õ«şÿÿÿÿ
+@squid:S1905"+Remove this unnecessary cast to "CheckBox".(Ê€÷¤
+?squid:S1905"+Remove this unnecessary cast to "CheckBox".(Ïû˜
+Hsquid:S1905".Remove this unnecessary cast to "RadioButton".(Øàÿúÿÿÿÿ
+Csquid:S1905".Remove this unnecessary cast to "RadioButton".(íù¹Í
+Esquid:S1172"+Remove this unused method parameter "view".(éšÀ¹ùÿÿÿÿ
+esquid:S00116"ORename this field "q1_g" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃØ­Á
+esquid:S00116"ORename this field "q3_g" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃØ­Á
+esquid:S00116"ORename this field "q4_g" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃØ­Á
+esquid:S00116"ORename this field "q5_g" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃØ­Á
+esquid:S00116"ORename this field "q7_g" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃØ­Á
+esquid:S00116"ORename this field "q8_g" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃØ­Á
+Vsquid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è
+Tsquid:UselessImportCheck"2Remove this unused import 'android.graphics.Rect'.(¤Úï¬
+^squid:UselessImportCheck"7Remove this unused import 'android.widget.FrameLayout'.(ºÍ‹Ùúÿÿÿÿ
+osquid:UselessImportCheck"HRemove this unused import 'android.view.inputmethod.InputMethodManager'.(‰­àûÿÿÿÿ
+[squid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+\squid:UselessImportCheck"5Remove this unused import 'android.view.MotionEvent'.(˜šËŞúÿÿÿÿ
+dsquid:MaximumInheritanceDepth"=This class has 10 parents which is greater than 5 authorized.(²Ú±
