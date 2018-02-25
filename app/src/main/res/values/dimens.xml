@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="EditText_marginLeft">125dp</dimen>
+    <dimen name="EditText_marginLeft_landscape">270dp</dimen>
+
+    <dimen name="EditText_marginTop">350dp</dimen>
+    <dimen name="editText_textSize">20sp</dimen>
+    <dimen name="q1a1_marginTop">150dp</dimen>
+    <dimen name="q1a2_marginTop">30dp</dimen>
+    <dimen name="q1a3_marginTop">30dp</dimen>
+    <dimen name="q2a1__marginTop">150dp</dimen>
+    <dimen name="q2a2_marginTop">200dp</dimen>
+    <dimen name="q2a3_marginTop">250dp</dimen>
+    <dimen name="q2a4_marginTop">300dp</dimen>
+    <dimen name="q3a1_marginTop">150dp</dimen>
+    <dimen name="q3a2_marginTop">30dp</dimen>
+    <dimen name="q3a3_marginTop">30dp</dimen>
+    <dimen name="q3a4_marginTop">30dp</dimen>
+    <dimen name="q4a1_marginTop">150dp</dimen>
+    <dimen name="q4a2_marginTop">30dp</dimen>
+    <dimen name="q4a3_marginTop">30dp</dimen>
+    <dimen name="q5a1_marginTop">150dp</dimen>
+    <dimen name="q5a2_marginTop">30dp</dimen>
+    <dimen name="q5a3_marginTop">30dp</dimen>
+    <dimen name="q6a1_marginTop">150dp</dimen>
+    <dimen name="q6a2_marginTop">200dp</dimen>
+    <dimen name="q6a3_marginTop">250dp</dimen>
+    <dimen name="q6a4_marginTop">300dp</dimen>
+    <dimen name="q7a1_marginTop">150dp</dimen>
+    <dimen name="q7a2_marginTop">30dp</dimen>
+    <dimen name="q8a1_marginTop">150dp</dimen>
+    <dimen name="q8a2_marginTop">30dp</dimen>
+    <dimen name="q8a3_marginTop">30dp</dimen>
+    <dimen name="Relative_height">90dp</dimen>
+    <dimen name="submit_marginLeft">160dp</dimen>
+    <dimen name="submit_marginLeft_landscape">300dp</dimen>
+
+    <dimen name="submit_marginTop">25dp</dimen>
+    <dimen name="submit_textSize">20sp</dimen>
+
+    <dimen name="frame_height">460dp</dimen>
+
+    <dimen name="image_height">460dp</dimen>
+
+    <dimen name="view_height">75dp</dimen>
+
+    <dimen name="check_textSize">20sp</dimen>
+    <dimen name="check_marginLeft">15dp</dimen>
+
+
+    <dimen name="radio_textSize">20sp</dimen>
+    <dimen name="radio_marginLeft">15dp</dimen>
+
+
+    <dimen name="q_textSize">20sp</dimen>
+    <dimen name="q_marginLeft">15dp</dimen>
+    <dimen name="q_marginRight">40dp</dimen>
+    <dimen name="q_marginTop">20dp</dimen>
+
+
+</resources>

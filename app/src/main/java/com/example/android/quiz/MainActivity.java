@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void submit(View view) {
-        score = 0;
+//        score = 0;
         user = name.getText().toString();
         checkQuestionOne();
         checkQuestionTwo();

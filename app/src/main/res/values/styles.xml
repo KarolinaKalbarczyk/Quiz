@@ -9,11 +9,11 @@
     </style>
 
     <style name="questions">
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:layout_marginRight">30dp</item>
-        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">@dimen/q_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/q_marginRight</item>
+        <item name="android:layout_marginTop">@dimen/q_marginTop</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/q_textSize</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:layout_width">wrap_content</item>
@@ -21,18 +21,17 @@
     </style>
 
     <style name="radio">
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">@dimen/radio_marginLeft</item>
+        <item name="android:textSize">@dimen/radio_textSize</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:buttonTint">#FFFFFF</item>
-
     </style>
 
     <style name="checkbox">
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">@dimen/check_marginLeft</item>
+        <item name="android:textSize">@dimen/check_textSize</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:buttonTint">#FFFFFF</item>
@@ -42,7 +41,19 @@
     <style name="view">
         <item name="android:background">#000000</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+    </style>
+
+    <style name="image">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+    </style>
+
+    <style name="frame">
+        <item name="android:background">#ba2c2a</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/frame_height</item>
     </style>
 
 </resources>

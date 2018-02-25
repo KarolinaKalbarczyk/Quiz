@@ -13,362 +13,335 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_0">
+            style="@style/frame">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_0"/>
 
             <EditText
+                android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="220dp"
-                android:layout_marginTop="300dp"
+                android:layout_marginLeft="@dimen/EditText_marginLeft_landscape"
+                android:layout_marginTop="@dimen/EditText_marginTop"
                 android:gravity="center_horizontal"
                 android:hint="@string/type_name"
-                android:textColorHint="#000000"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:id="@+id/name"
-
-                />
+                android:textColorHint="#000000"
+                android:textSize="@dimen/editText_textSize"/>
         </RelativeLayout>
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_1">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/capital" />
 
             <RadioGroup
+                android:id="@+id/q1_g"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/q1_g">
+                android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/q1a1"
                     style="@style/radio"
-                    android:layout_marginTop="150dp"
-                    android:text="@string/cracow"
-                    android:id="@+id/q1a1"/>
+                    android:layout_marginTop="@dimen/q1a1_marginTop"
+                    android:text="@string/cracow" />
 
                 <RadioButton
+                    android:id="@+id/q1a2"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/warsaw"
-                    android:id="@+id/q1a2"/>
+                    android:layout_marginTop="@dimen/q1a2_marginTop"
+                    android:text="@string/warsaw" />
 
                 <RadioButton
+                    android:id="@+id/q1a3"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/wroclaw"
-                    android:id="@+id/q1a3"/>
+                    android:layout_marginTop="@dimen/q1a3_marginTop"
+                    android:text="@string/wroclaw" />
 
             </RadioGroup>
 
         </RelativeLayout>
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_2">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/border" />
 
             <CheckBox
+                android:id="@+id/q2a1"
                 style="@style/checkbox"
-                android:layout_marginTop="150dp"
-                android:text="@string/germany"
-                android:id="@+id/q2a1"/>
+                android:layout_marginTop="@dimen/q2a1__marginTop"
+                android:text="@string/germany" />
 
             <CheckBox
+                android:id="@+id/q2a2"
                 style="@style/checkbox"
-                android:layout_marginTop="200dp"
-                android:text="@string/lithuania"
-                android:id="@+id/q2a2"/>
+                android:layout_marginTop="@dimen/q2a2_marginTop"
+                android:text="@string/lithuania" />
 
             <CheckBox
+                android:id="@+id/q2a3"
                 style="@style/checkbox"
-                android:layout_marginTop="250dp"
-                android:text="@string/hungary"
-                android:id="@+id/q2a3"/>
+                android:layout_marginTop="@dimen/q2a3_marginTop"
+                android:text="@string/hungary" />
 
             <CheckBox
+                android:id="@+id/q2a4"
                 style="@style/checkbox"
-                android:layout_marginTop="300dp"
-                android:text="@string/russia"
-                android:id="@+id/q2a4"/>
+                android:layout_marginTop="@dimen/q2a4_marginTop"
+                android:text="@string/russia" />
 
         </RelativeLayout>
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_3">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/history" />
 
             <RadioGroup
+                android:id="@+id/q3_g"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/q3_g">
+                android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/q3a1"
                     style="@style/radio"
-                    android:layout_marginTop="150dp"
-                    android:text="@string/turkey"
-                    android:id="@+id/q3a1"/>
+                    android:layout_marginTop="@dimen/q3a1_marginTop"
+                    android:text="@string/turkey" />
 
                 <RadioButton
+                    android:id="@+id/q3a2"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/sweden"
-                    android:id="@+id/q3a2"/>
+                    android:layout_marginTop="@dimen/q3a2_marginTop"
+                    android:text="@string/sweden" />
 
                 <RadioButton
+                    android:id="@+id/q3a3"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/romania"
-                    android:id="@+id/q3a3"/>
+                    android:layout_marginTop="@dimen/q3a3_marginTop"
+                    android:text="@string/romania" />
 
                 <RadioButton
+                    android:id="@+id/q3a4"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/serbia"
-                    android:id="@+id/q3a4"/>
+                    android:layout_marginTop="@dimen/q3a4_marginTop"
+                    android:text="@string/serbia" />
 
             </RadioGroup>
 
         </RelativeLayout>
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_4">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/area" />
 
             <RadioGroup
+                android:id="@+id/q4_g"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/q4_g">
+                android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/q4a1"
                     style="@style/radio"
-                    android:layout_marginTop="150dp"
-                    android:text="@string/_1"
-                    android:id="@+id/q4a1" />
+                    android:layout_marginTop="@dimen/q4a1_marginTop"
+                    android:text="@string/_1" />
 
                 <RadioButton
+                    android:id="@+id/q4a2"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/_9"
-                    android:id="@+id/q4a2"/>
+                    android:layout_marginTop="@dimen/q4a2_marginTop"
+                    android:text="@string/_9" />
 
                 <RadioButton
+                    android:id="@+id/q4a3"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/_15"
-                    android:id="@+id/q4a3"/>
+                    android:layout_marginTop="@dimen/q4a3_marginTop"
+                    android:text="@string/_15" />
 
             </RadioGroup>
 
         </RelativeLayout>
 
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_5">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/uprising" />
 
             <RadioGroup
+                android:id="@+id/q5_g"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/q5_g">
+                android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/q5a1"
                     style="@style/radio"
-                    android:layout_marginTop="150dp"
-                    android:text="@string/_1939"
-                    android:id="@+id/q5a1"/>
+                    android:layout_marginTop="@dimen/q5a1_marginTop"
+                    android:text="@string/_1939" />
 
                 <RadioButton
+                    android:id="@+id/q5a2"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/_1943"
-                    android:id="@+id/q5a2"/>
+                    android:layout_marginTop="@dimen/q5a2_marginTop"
+                    android:text="@string/_1943" />
 
                 <RadioButton
+                    android:id="@+id/q5a3"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/_1944"
-                    android:id="@+id/q5a3"/>
+                    android:layout_marginTop="@dimen/q5a3_marginTop"
+                    android:text="@string/_1944" />
 
             </RadioGroup>
 
         </RelativeLayout>
 
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_6">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/poland" />
 
             <CheckBox
+                android:id="@+id/q6a1"
                 style="@style/checkbox"
-                android:layout_marginTop="150dp"
-                android:text="@string/desert"
-                android:id="@+id/q6a1"/>
+                android:layout_marginTop="@dimen/q6a1_marginTop"
+                android:text="@string/desert" />
 
             <CheckBox
+                android:id="@+id/q6a2"
                 style="@style/checkbox"
-                android:layout_marginTop="200dp"
-                android:text="@string/sea"
-                android:id="@+id/q6a2"/>
+                android:layout_marginTop="@dimen/q6a2_marginTop"
+                android:text="@string/sea" />
 
             <CheckBox
+                android:id="@+id/q6a3"
                 style="@style/checkbox"
-                android:layout_marginTop="250dp"
-                android:text="@string/mountains"
-                android:id="@+id/q6a3"/>
+                android:layout_marginTop="@dimen/q6a3_marginTop"
+                android:text="@string/mountains" />
 
             <CheckBox
+                android:id="@+id/q6a4"
                 style="@style/checkbox"
-                android:layout_marginTop="300dp"
-                android:text="@string/lakes"
-                android:id="@+id/q6a4"/>
+                android:layout_marginTop="@dimen/q6a4_marginTop"
+                android:text="@string/lakes" />
 
         </RelativeLayout>
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_7">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
-                android:text="@string/constitution"
-                 />
+                android:text="@string/constitution" />
 
             <RadioGroup
+                android:id="@+id/q7_g"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/q7_g">
+                android:layout_height="wrap_content">
 
-            <RadioButton
-                style="@style/radio"
-                android:layout_marginTop="150dp"
-                android:text="@string/yes"
-                android:id="@+id/q7a1"/>
+                <RadioButton
+                    android:id="@+id/q7a1"
+                    style="@style/radio"
+                    android:layout_marginTop="@dimen/q7a1_marginTop"
+                    android:text="@string/yes" />
 
-            <RadioButton
-                style="@style/radio"
-                android:layout_marginTop="30dp"
-                android:text="@string/no"
-                android:id="@+id/q7a2"/>
+                <RadioButton
+                    android:id="@+id/q7a2"
+                    style="@style/radio"
+                    android:layout_marginTop="@dimen/q7a2_marginTop"
+                    android:text="@string/no" />
 
             </RadioGroup>
 
 
         </RelativeLayout>
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="380dp"
-            android:background="@drawable/bg_8">
+            style="@style/frame">
 
             <TextView
                 style="@style/questions"
                 android:text="@string/football" />
 
             <RadioGroup
+                android:id="@+id/q8_g"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/q8_g">
+                android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/q8a1"
                     style="@style/radio"
-                    android:layout_marginTop="150dp"
-                    android:text="@string/wisla"
-                    android:id="@+id/q8a1"/>
+                    android:layout_marginTop="@dimen/q8a1_marginTop"
+                    android:text="@string/wisla" />
 
                 <RadioButton
+                    android:id="@+id/q8a2"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/arka"
-                    android:id="@+id/q8a2"/>
+                    android:layout_marginTop="@dimen/q8a2_marginTop"
+                    android:text="@string/arka" />
 
                 <RadioButton
+                    android:id="@+id/q8a3"
                     style="@style/radio"
-                    android:layout_marginTop="30dp"
-                    android:text="@string/legia"
-                    android:id="@+id/q8a3"/>
+                    android:layout_marginTop="@dimen/q8a3_marginTop"
+                    android:text="@string/legia" />
 
             </RadioGroup>
 
         </RelativeLayout>
 
 
-        <View
-            style="@style/view" />
+        <View style="@style/view" />
 
         <RelativeLayout
-            android:layout_width="598dp"
-            android:layout_height="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Relative_height"
             android:background="#ba2c2a">
 
             <Button
+                android:id="@+id/submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="250dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginLeft="@dimen/submit_marginLeft_landscape"
+                android:layout_marginTop="@dimen/submit_marginTop"
+                android:onClick="submit"
                 android:text="@string/submit"
-                android:textSize="20sp"
-                android:id="@+id/submit"
-                android:onClick="submit"/>
+                android:textSize="@dimen/submit_textSize" />
         </RelativeLayout>
 
     </LinearLayout>
