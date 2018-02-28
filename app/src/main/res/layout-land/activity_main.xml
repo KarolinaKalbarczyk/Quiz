@@ -21,7 +21,7 @@
 
             <ImageView
                 style="@style/image"
-                android:src="@drawable/bg_0"/>
+                android:src="@drawable/bg_0_h" />
 
             <EditText
                 android:id="@+id/name"
@@ -40,6 +40,10 @@
 
         <RelativeLayout
             style="@style/frame">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_1_h"/>
 
             <TextView
                 style="@style/questions"
@@ -77,6 +81,10 @@
         <RelativeLayout
             style="@style/frame">
 
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_2_h"/>
+
             <TextView
                 style="@style/questions"
                 android:text="@string/border" />
@@ -111,6 +119,10 @@
 
         <RelativeLayout
             style="@style/frame">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_3_h"/>
 
             <TextView
                 style="@style/questions"
@@ -154,6 +166,10 @@
         <RelativeLayout
             style="@style/frame">
 
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_4_h"/>
+
             <TextView
                 style="@style/questions"
                 android:text="@string/area" />
@@ -190,6 +206,10 @@
 
         <RelativeLayout
             style="@style/frame">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_5_h"/>
 
             <TextView
                 style="@style/questions"
@@ -228,6 +248,10 @@
         <RelativeLayout
             style="@style/frame">
 
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_6_h"/>
+
             <TextView
                 style="@style/questions"
                 android:text="@string/poland" />
@@ -263,6 +287,10 @@
         <RelativeLayout
             style="@style/frame">
 
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_7_h"/>
+
             <TextView
                 style="@style/questions"
                 android:text="@string/constitution" />
@@ -293,6 +321,10 @@
 
         <RelativeLayout
             style="@style/frame">
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/bg_8_h"/>
 
             <TextView
                 style="@style/questions"
