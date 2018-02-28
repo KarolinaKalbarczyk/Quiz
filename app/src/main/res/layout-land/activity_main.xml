@@ -295,24 +295,19 @@
                 style="@style/questions"
                 android:text="@string/constitution" />
 
-            <RadioGroup
-                android:id="@+id/q7_g"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/q7a1"
-                    style="@style/radio"
-                    android:layout_marginTop="@dimen/q7a1_marginTop"
-                    android:text="@string/yes" />
-
-                <RadioButton
-                    android:id="@+id/q7a2"
-                    style="@style/radio"
-                    android:layout_marginTop="@dimen/q7a2_marginTop"
-                    android:text="@string/no" />
-
-            </RadioGroup>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/EditText_marginTop"
+                android:gravity="center_horizontal"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000"
+                android:textSize="@dimen/editText_textSize"
+                android:id="@+id/answer"
+                />
 
 
         </RelativeLayout>

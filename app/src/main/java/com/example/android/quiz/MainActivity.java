@@ -19,11 +19,11 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private int score;
-    EditText name;
+    EditText name, answer;
     String user;
     RadioGroup radioGroup, q1_g, q3_g, q4_g, q5_g, q7_g, q8_g;
     CheckBox q2a1, q2a2, q2a3, q2a4, q6a1, q6a2, q6a3, q6a4;
-    RadioButton q1a2, q3a4, q4a2, q5a3, q7a1, q8a3;
+    RadioButton q1a2, q3a4, q4a2, q5a3, q8a3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         name = (EditText) findViewById(R.id.name);
+        answer = (EditText) findViewById(R.id.answer);
     }
 
 
     public void submit(View view) {
-//        score = 0;
         user = name.getText().toString();
         checkQuestionOne();
         checkQuestionTwo();
@@ -47,7 +47,14 @@ public class MainActivity extends AppCompatActivity {
         checkQuestionEight();
         clearAnswer();
         checkCorrect();
-        Toast.makeText(this, "Congratulation " + user + " !!" + "\nYour result is: " + score + "\n Check correct answear!", Toast.LENGTH_LONG).show();
+
+
+        if (score >= 4) {
+            Toast.makeText(this, "Congratulation " + user + " !!" + "\nYou know Poland very well!" + "\nYour result is: " + score + "\n Check correct answear!", Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "You must read more about Poland " + user + "\nYour result is: " + score + "\n Check correct answear!", Toast.LENGTH_LONG).show();
+
+        }
     }
 
     public void clearAnswer(){
@@ -65,15 +72,15 @@ public class MainActivity extends AppCompatActivity {
         q3_g = (RadioGroup) findViewById(R.id.q3_g);
         q4_g = (RadioGroup) findViewById(R.id.q4_g);
         q5_g = (RadioGroup) findViewById(R.id.q5_g);
-        q7_g = (RadioGroup) findViewById(R.id.q7_g);
         q8_g = (RadioGroup) findViewById(R.id.q8_g);
 
+
        name.getText().clear();
+       answer.getText().clear();
        q1_g.clearCheck();
        q3_g.clearCheck();
        q4_g.clearCheck();
        q5_g.clearCheck();
-       q7_g.clearCheck();
        q8_g.clearCheck();
 
        q2a1.setChecked(false);
@@ -84,11 +91,13 @@ public class MainActivity extends AppCompatActivity {
        q6a2.setChecked(false);
        q6a3.setChecked(false);
        q6a4.setChecked(false);
+
     }
 
     public void checkCorrect(){
 
         name = (EditText) findViewById(R.id.name);
+        answer = (EditText) findViewById(R.id.answer);
         q1a2 = (RadioButton) findViewById(R.id.q1a2);
         q2a1 = (CheckBox) findViewById(R.id.q2a1);
         q2a2 = (CheckBox) findViewById(R.id.q2a2);
@@ -100,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
         q6a2 = (CheckBox) findViewById(R.id.q6a2);
         q6a3 = (CheckBox) findViewById(R.id.q6a3);
         q6a4 = (CheckBox) findViewById(R.id.q6a4);
-        q7a1 = (RadioButton) findViewById(R.id.q7a1);
         q8a3 = (RadioButton) findViewById(R.id.q8a3);
 
         q1a2.setChecked(true);
@@ -114,8 +122,8 @@ public class MainActivity extends AppCompatActivity {
         q6a2.setChecked(true);
         q6a3.setChecked(true);
         q6a4.setChecked(true);
-        q7a1.setChecked(true);
         q8a3.setChecked(true);
+        answer.setText("True");
     }
 
     private void checkQuestionOne() {
@@ -132,13 +140,7 @@ public class MainActivity extends AppCompatActivity {
         q2a2 = findViewById(R.id.q2a2);
         q2a4 = findViewById(R.id.q2a4);
 
-        if (q2a1.isChecked()) {
-            score++;
-        }
-        if (q2a2.isChecked()) {
-            score++;
-        }
-        if (q2a4.isChecked()) {
+        if (q2a1.isChecked() && q2a2.isChecked() && q2a4.isChecked()) {
             score++;
         }
     }
@@ -173,26 +175,19 @@ public class MainActivity extends AppCompatActivity {
         q6a3 = findViewById(R.id.q6a3);
         q6a4 = findViewById(R.id.q6a4);
 
-        if (q6a1.isChecked()) {
-            score++;
-        }
-        if (q6a2.isChecked()) {
-            score++;
-        }
-        if (q6a3.isChecked()) {
-            score++;
-        }
-        if (q6a4.isChecked()) {
+        if (q6a1.isChecked() && q6a2.isChecked() && q6a3.isChecked() && q6a4.isChecked()) {
             score++;
         }
     }
 
     private void checkQuestionSeven() {
-        radioGroup = findViewById(R.id.q7_g);
-        int radioButtonId = radioGroup.getCheckedRadioButtonId();
 
-        if (radioButtonId == R.id.q7a1)
+        EditText q7a = (EditText) findViewById(R.id.answer);
+        String answer = q7a.getText().toString();
+
+        if(answer.equals("yes") || answer.equals("Yes") || answer.equals("YES") || answer.equals("true") || answer.equals("True") || answer.equals("TRUE")){
             score++;
+        }
     }
 
     private void checkQuestionEight() {
